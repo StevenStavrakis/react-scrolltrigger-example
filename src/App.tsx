@@ -9,7 +9,14 @@ function App() {
       <Hero />
       <About />
       <Works />
-      <div className="h-screen"></div>
+      <div className="h-screen bg-white">
+        <div className="flex flex-col items-center justify-center h-full">
+          <h3 className="text-3xl mb-4">
+            Thanks for visiting my GSAP example.
+          </h3>
+          <h3 className="text-3xl">Design copied from devaslife on YouTube</h3>
+        </div>
+      </div>
     </>
   );
 }
